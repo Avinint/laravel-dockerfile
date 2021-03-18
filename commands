@@ -1,0 +1,7 @@
+alias npm:watch="docker-compose run --rm  npm run watch"
+alias dc:up="docker-compose up -d server"
+alias dc:run="docker-compose run --rm"
+alias dc:build="docker-compose up -d --build server"
+alias artisan=" docker-compose run --rm  artisan"
+alias composer=" docker-compose run --rm  composer"
+alias dc:npm="docker-compose run --rm  npm"
